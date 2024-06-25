@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Head Or Tail</title>
+        <link rel="stylesheet" href="head-tail.css">
+    </head>
+    <body>
+        <p class="heading">Head Or Tail</p>
+        <img src="head.png" class="pic">
+        <img src="tail.png" class="pic">
+        <br>
+        <button onclick="playGame('head')"
+                class="head_button"
+            > Head </button>
+        <button onclick="playGame('tail')"
+                class="tail_button"
+            > Tail </button>
+        <p class="js-result result"></p>
+        <p class="js-moves"></p>
+        <p class="js-score score"></p>
+        <button onclick="
+            score.win=0;
+            score.loss=0;
+            localStorage.removeItem('score');
+            updateScoreElement();"
+            class="reset"
+            >Reset Button</button>
+    </body>
+    <script src="head-tail.js"></script>
+        
+</html>

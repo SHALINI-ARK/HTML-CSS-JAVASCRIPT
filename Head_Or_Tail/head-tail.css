@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color:white;
+}
+.heading{
+    display:flex;
+    text-align: center;
+}
+.pic{
+    background-color:transparent;
+    height:100px;
+    width: 100px;
+    text-align: center;
+}
+.pic1{
+    background-color:transparent;
+    height:50px;
+    width: 50px;
+    text-align: center;
+}
+
+.head_button{
+    border:none;
+    background-color: green;
+    color:black;
+    padding-left:34px;
+    padding-right:34px;
+    font-weight:bold;
+}
+.tail_button{
+    border:none;
+    background-color: green;
+    color:black;
+    padding-left:39px;
+    padding-right:39px;
+    font-weight:bold;
+}
+.reset{
+    background-color: aqua;
+    border-radius: 10px;
+    border:none;
+}
+.result-container {
+    text-align: center;
+    margin-top: 20px;
+}
